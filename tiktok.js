@@ -15,6 +15,7 @@ var folder_path = __dirname +"/videos/";
 
 
 var schedule = process.env.UPLOAD_HOURS;
+var schedule_u = schedule;
 var random_minutes = process.env.UPLOAD_MINUTES;
 
 var username = process.env.TIKTOK_USERNAME;
